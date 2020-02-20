@@ -82,7 +82,7 @@ classifier.add(Dense(32, kernel_initializer='uniform', activation='relu', input_
 
 # #Hidden layers
 
-# #Output layer: se usa la función de activación sigmoide para una salida de 0 / 1
+# #Output layer: se usa la función de activación tanh para una salida de 0 / 1
 classifier.add(Dense(1, kernel_initializer ='uniform', activation='tanh'))
 
 
